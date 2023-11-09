@@ -1,16 +1,16 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
 }
 
-body {
+.register-body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("/img/Register_img.jpg") no-repeat;
+    background: url("/img/caribean-2.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -118,4 +118,4 @@ body {
     body {
       background-image: url('img/caribean.jpg');
     }
-  }
+  } */
