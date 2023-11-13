@@ -114,6 +114,13 @@
     text-decoration: underline;
 }
 
+.footer-log {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15%;
+}
+
 @media screen and (max-width: 768px) {
     body {
       background-image: url('img/caribean.jpg');
@@ -227,6 +234,13 @@
 
 .register-link-sign p a:hover{
     text-decoration: underline;
+}
+
+.footer-sign {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15%;
 }
 
 @media screen and (max-width: 768px) {
