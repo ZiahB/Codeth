@@ -5,6 +5,12 @@
     font-family: "poppins",sans-serif;
 }
 
+.body-about-us{
+    background-image: url("img/shark-gost.jpg") no-repeat;
+
+}
+
+
 .login-body {
     display: flex;
     justify-content: center;
@@ -13,7 +19,7 @@
     background: url("/img/caribean-alternate.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-
+    
 }
 
 .wrapper-log {
