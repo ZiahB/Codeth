@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="staff.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile cards</title>
+  </head>
+  <body>
+    <section>
+      <div class="team">
+        <div class="user hide-details" id="kezaya">
+          <img src="img/Kezaya2.jpg" onclick="openinfo('kezaya')" />
+          <div class="info">
+            <h1>Kezaya</h1>
+            <p>Comander in Chief</p>
+            <p>From: Puebla, Mexico</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </div>
+          <div class="close-icon" onClick="closeinfo('kezaya')"></div>
+        </div>
+
+        <div class="user hide-details" id="hector">
+          <img src="img/Hector.jpg" onclick="openinfo('hector')" />
+          <div class="info">
+            <h1>Hector</h1>
+            <p>Solution Architect</p>
+            <p>From: Guanajuato, Mexico</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </div>
+          <div class="close-icon" onClick="closeinfo('hector')"></div>
+        </div>
+
+        <div class="user hide-details" id="ratha">
+          <img src="img/Ratha.jpg" onclick="openinfo('ratha')" />
+          <div class="info">
+            <h1>Ratha</h1>
+            <p>Solution Architect</p>
+            <p>From: Madison, Wisconsin</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </div>
+          <div class="close-icon" onClick="closeinfo('ratha')"></div>
+        </div>
+
+        <div class="user hide-details" id="rafael">
+          <img src="img/Rafael.jpg" onclick="openinfo('rafael')" />
+          <div class="info">
+            <h1>Rafael</h1>
+            <p>Solution Architect</p>
+            <p>From: Madison, Wisconsin</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </div>
+
+          <div class="close-icon" onClick="closeinfo('rafael')"></div>
+        </div>
+
+        <div class="user hide-details" id="dre">
+          <img src="img/Dre.jpg" onclick="openinfo('dre')" />
+          <div class="info">
+            <h1>Dreco</h1>
+            <p>Solution Architect</p>
+            <p>From: Madison, Wisconsin</p>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </div>
+          <div class="close-icon" onClick="closeinfo('dre')"></div>
+        </div>
+      </div>
+
+      <script>
+        const kezaya = document.getElementById("kezaya");
+        const hector = document.getElementById("hector");
+        const ratha = document.getElementById("ratha");
+        const rafael = document.getElementById("rafael");
+        const dre = document.getElementById("dre");
+
+        function openinfo(player) {
+          if (player === "kezaya") {
+            kezaya.classList.remove("hide-details");
+          } else if (player === "hector") {
+            hector.classList.remove("hide-details");
+          } else if (player === "ratha") {
+            ratha.classList.remove("hide-details");
+          } else if (player === "rafael") {
+            rafael.classList.remove("hide-details");
+          } else if (player === "dre") {
+            dre.classList.remove("hide-details");
+          }
+        }
+
+        function closeinfo(player) {
+          if (player === "kezaya") {
+            kezaya.classList.add("hide-details");
+          } else if (player === "hector") {
+            hector.classList.add("hide-details");
+          } else if (player === "ratha") {
+            ratha.classList.add("hide-details");
+          } else if (player === "rafael") {
+            rafael.classList.add("hide-details");
+          } else if (player === "dre") {
+            dre.classList.add("hide-details");
+          }
+        }
+      </script>
+    </section>
+  </body>
+</html>
