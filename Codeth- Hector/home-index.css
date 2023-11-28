@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+/* Header */
+audio {
+  background: none;
+}
+
+.header-index {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/images/high_quality_skelleton.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.center-header {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+#header {
+  color: white;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+.header-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.header-btn:hover {
+  border: 1px solid red;
+  background: red;
+  transition: 1s;
+}
+
+/* Elite-Coding */
+.left-elite-coding {
+  width: 88%;
+  margin: 100px;
+  padding-top: 0px;
+}
+.elite-h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.elite-title {
+  color: black;
+}
+.elite-text {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  font-weight: bold;
+}
+.elite-coding {
+  display: flex;
+  background-image: url(/images/Jacksparrowrunning.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 490px;
+}
+.right-elite-coding {
+  padding-top: 100px;
+  margin: auto;
+}
+
+.btn-elite {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: lightseagreen;
+  border: none;
+  padding: 12px 34px;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+}
+.btn-elite:hover {
+  border: 1px solid green;
+  background: green;
+  transition: 1s;
+}
+
+/* Testimonials */
+.hector {
+  width: 100px;
+  border-radius: 40px;
+}
+.will {
+  width: 100px;
+  border-radius: 40px;
+  height: 150px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.course-col {
+  max-width: 500px;
+  background: whitesmoke;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.course-col:hover {
+  box-shadow: 0 0 20px 0px white;
+}
+.testimonials-title {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #fff;
+}
+.testimonials-text {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #fff;
+}
+
+/* Plans and Prices */
+.plans-prices {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+ul {
+  list-style-image: url(/images/check-square\ \(1\).svg);
+}
+.plans-title,
+.plans-text {
+  color: white;
+}
+
+.row-prices {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.prices-card {
+  max-width: 450px;
+  background: url(/images/treasure.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  color: #fff;
+  border: 1px solid white;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#centurion:hover {
+  box-shadow: 0 0 30px 0px red;
+}
+#blackpearl:hover {
+  box-shadow: 0 0 30px 0px yellow;
+}
+#dutch:hover {
+  box-shadow: 0 0 30px 0px white;
+}
+
+.btn-centurion,
+.btn-blackpearl,
+.btn-dutch {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: none;
+  padding: 12px 80px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  /* margin-top: 20px; */
+  background-color: rgb(17, 117, 112);
+  margin: auto;
+}
+
+.btn-blackpearl:hover {
+  border: 1px solid yellow;
+  background: yellow;
+  transition: 1s;
+}
+
+.btn-dutch:hover {
+  border: 1px solid black;
+  background: black;
+  transition: 1s;
+  color: #fff;
+}
+.btn-centurion:hover {
+  border: 1px solid firebrick;
+  background: firebrick;
+  transition: 1s;
+  color: #fff;
+}
+
+.centurion,
+.dutch,
+.blackpearl {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contact us */
+.contactus {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  background: url(/images/pirates_treasure_background-2.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  height: 500px;
+  font-weight: bold;
+  background-position: center;
+}
+
+.btn-contactus {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: rgb(17, 117, 112);
+  border-radius: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 840px) {
+  .body-index {
+    width: fit-content;
+  }
+  .header-index {
+    background-image: url(/images/davyjones\(small\).jpg);
+    background-size: cover;
+    width: 100%;
+  }
+  .elite-coding {
+    background-size: cover;
+  }
+  .row-prices {
+    flex-direction: column;
+    display: inline-flex;
+  }
+  .contactus {
+    background-image: url(/images/QjEe.gif) ;
+    background-size: cover;
+    height: 327px;
+  }
+  .contact-ustxt {
+    margin-left: 173px
+  }
+  .center-footer {
+    flex-direction: column;
+
+  }
+
+  
+}
