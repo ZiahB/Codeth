@@ -1,0 +1,265 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* NAVBAR */
+  nav {
+    box-shadow: 0px 10px 20px #000000;
+    background-image: url(https://wallpapers.com/images/hd/glowing-blue-pirate-ship-xfhc5uonpnk7hx3b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .btn-end {
+    display: flex;
+    justify-items: space-between;
+  }
+  .navbar-brand {
+    font-weight: 900;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+  }
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  nav li {
+    width: 100px;
+    height: 40px
+  }
+  .nav-link {
+  
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    text-shadow: 1px 1px 1px black;
+    color: white !important;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 900 !important;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+  }
+  #top-jaw,
+  #bottom-jaw {
+    transition: all 1s ease;
+  }
+  svg:hover #top-jaw {
+    transform: translateY(-10);
+  }
+  .nav-link:hover {
+    transform: scale(1.1);
+  }
+  .navbar-text {
+    color: white !important;
+  }
+  .navbar-brand {
+    color: white !important;
+  }
+  .button-center {
+    color: white;
+    background-image: url(images/blue-ship.gif) !important;
+    background-size: contain;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+  }
+  .btn {
+    font-weight: 900 !important;
+    color: white !important;
+    text-shadow: 5px 5px 10px 5px black !important;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+  }
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  .navbar-toggler {
+    background-image: url(images/davey-jones-button.png) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100px;
+    width: 100px;
+  }
+  .navbar-toggler:hover {
+    box-shadow: 0px 0px 10px 10px rgb(3, 162, 173);
+  }
+  
+  /* HEADER */
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(https://w0.peakpx.com/wallpaper/221/729/HD-wallpaper-death-pirate-death-game-pirate-hat-armor-fire-fantasy-ship-dark-pink-sword-blue-night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    height: 1000px;
+  }
+  .hd-project h1 {
+    font-family: "Questrial", sans-serif;
+    font-family: "Space Mono", monospace;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+  }
+  .hd img {
+    width: 300px;
+  }
+  /* MAIN */
+  main {
+    background-image: url(images/love-backgroud.png);
+    background-color: black;
+    background-size: contain;
+    background-size: 1250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1980px;
+    width: 100%;
+    box-shadow: 10px 10px 10px 20px black;
+  }
+  main:hover {
+    background-size: scale(1.1);
+  }
+  main h1 {
+    margin-top: 50px;
+    color: black;
+    -webkit-text-stroke-color: #0088ff;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: 1px 1px 5px #000000;
+  }
+  .sign {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(images/sign-backgroud.png);
+    background-position: center;
+    background-size: contain;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-center {
+    display: flex;
+    justify-content: center;
+  }
+  /* CARDS */
+  .absoulute {
+    top: 0;
+    position: absolute;
+    z-index: 3;
+  }
+  .relative {
+    position: relative;
+    z-index: 1;
+    left: 0px;
+  }
+  .gone {
+    display: none;
+  }
+  .project {
+    padding-top: 50px;
+    display: grid;
+    row-gap: 80px;
+  }
+  .cards {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 5px #00ccff;
+  }
+  .cards img {
+    border-radius: 10px;
+    width: 200px;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+  }
+  .cards img:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px #00ccff;
+  }
+  /* FOOTER */
+  footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(images/footer-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 30px 0px;
+    height: 100%;
+    width: 100%;
+  }
+  .center {
+    display: flex;
+    flex-direction: column;
+  }
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(133, 132, 132);
+  }
+  .company {
+    width: 300px;
+  }
+  .button-center {
+    text-align: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+  button {
+    text-align: center;
+  }
+@media screen and (min-width: 760px) {
+  main {
+    background-size: 760px;
+    height: 1480px;
+  }
+  .project {
+    grid-template-columns: auto auto;
+  }
+  .cards, .cards img {
+    height: 350px;
+    width: 250px;
+  }
+  
+}
+@media screen and (min-width: 1000px) {
+  header {
+    height: 700px;
+  }
+  .gone {
+    display: block;
+  }
+  main {
+    background-size: contain;
+    background-size: 1300px;
+    height: 2500px;
+  }
+  .project {
+    display: grid;
+    row-gap: 250px;
+    grid-template-columns: auto auto;
+  }
+  .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
